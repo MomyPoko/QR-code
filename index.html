@@ -1,28 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | QR code component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor | QR code component</title>
 
-  Improve your front-end skills by building projects
+    <script src="https://cdn.tailwindcss.com"></script>
 
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="w-screen h-screen bg-[#D5E1EF] flex flex-col justify-center items-center"
+    >
+      <section
+        class="w-[320px] h-[497px] bg-[#fff] rounded-[15px] flex flex-col items-center"
+      >
+        <img
+          class="w-[288px] h-[288px] rounded-[15px] my-[15px]"
+          src="images/image-qr-code.png"
+          alt="image-qr-code"
+        />
+        <div class="text-center">
+          <h1
+            class="font-outfit text-[#1F314F] text-[22px] font-[700] leading-[27.72px] px-[15px] my-[5px]"
+          >
+            Improve your front-end skills by building projects
+          </h1>
+          <p
+            class="font-outfit text-[#7D889E] text-[15px] font-[400] leading-[18.9px] px-[30px] my-[15px]"
+          >
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
+        </div>
+      </section>
+
+      <div class="attribution mt-[20px]">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">MomyPoko</a>.
+      </div>
+    </div>
+  </body>
 </html>
